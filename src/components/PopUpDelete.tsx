@@ -7,7 +7,7 @@ interface PopUpAddOfferProps {
   name: string;
 }
 
-const PopUpDelete = ({ setVisible, id, name }: PopUpAddOfferProps) => {
+const PopUpDelete = ({ setVisible, name }: PopUpAddOfferProps) => {
   return (
     <div className="flex justify-center items-center h-full w-full fixed top-0 left-0 z-50">
       <div

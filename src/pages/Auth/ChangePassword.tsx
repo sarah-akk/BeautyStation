@@ -40,7 +40,10 @@ const ChangePassword: React.FC = () => {
       <ToastContainer />
       {mutation.isLoading ? <Loader /> : ""}
 
-      <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[55%] max-md:w-[97%]  mx-auto">
+      <div
+        className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-[55%] max-md:w-[97%]  mx-auto"
+        style={{ direction: "rtl" }}
+      >
         <img
           src={logo}
           alt=""
